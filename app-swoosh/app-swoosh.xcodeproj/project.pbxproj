@@ -13,6 +13,7 @@
 		45F911A01F3D8C86006DA29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45F9119F1F3D8C86006DA29B /* Assets.xcassets */; };
 		45F911A31F3D8C86006DA29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45F911A11F3D8C86006DA29B /* LaunchScreen.storyboard */; };
 		45F911AC1F3D92E1006DA29B /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F911AB1F3D92E1006DA29B /* BorderButton.swift */; };
+		45F911AE1F3DB1E2006DA29B /* playerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F911AD1F3DB1E2006DA29B /* playerVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		45F911A21F3D8C86006DA29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45F911A41F3D8C86006DA29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45F911AB1F3D92E1006DA29B /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		45F911AD1F3DB1E2006DA29B /* playerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = playerVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				45F911AB1F3D92E1006DA29B /* BorderButton.swift */,
+				45F911AD1F3DB1E2006DA29B /* playerVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				45F9119B1F3D8C86006DA29B /* ViewController.swift in Sources */,
 				45F911991F3D8C86006DA29B /* AppDelegate.swift in Sources */,
 				45F911AC1F3D92E1006DA29B /* BorderButton.swift in Sources */,
+				45F911AE1F3DB1E2006DA29B /* playerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
