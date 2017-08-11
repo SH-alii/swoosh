@@ -7,7 +7,7 @@
 //
 
 import UIKit
-@IBDesignable
+
 class BorderButton: UIButton {
 
     override func awakeFromNib() {

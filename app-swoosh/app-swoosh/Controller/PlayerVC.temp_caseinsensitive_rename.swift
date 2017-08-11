@@ -8,7 +8,7 @@
 
 import UIKit
 
-class playerVC: UIViewController {
+class PlayerVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
