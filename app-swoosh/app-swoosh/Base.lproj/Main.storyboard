@@ -125,6 +125,9 @@
                                         <state key="normal" title="Mens">
                                             <color key="titleColor" red="0.96078431369999995" green="0.95686274510000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onMensTapped:" destination="Dbk-H7-dvD" eventType="touchUpInside" id="gKw-wU-SAT"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqa-ey-akY" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="67" width="382" height="47"/>
@@ -133,6 +136,9 @@
                                         <state key="normal" title="Womens">
                                             <color key="titleColor" red="0.96078431369999995" green="0.95686274510000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onWomensTapped:" destination="Dbk-H7-dvD" eventType="touchUpInside" id="Akv-tZ-RMw"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QsS-jT-fKm" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="134" width="382" height="47"/>
@@ -141,10 +147,13 @@
                                         <state key="normal" title="Co-eds">
                                             <color key="titleColor" red="0.96078431369999995" green="0.95686274510000002" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onCoedsTapped:" destination="Dbk-H7-dvD" eventType="touchUpInside" id="EdT-JP-1KB"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzt-oX-IrG" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzt-oX-IrG" customClass="BorderButton" customModule="app_swoosh" customModuleProvider="target">
                                 <rect key="frame" x="16" y="672" width="382" height="44"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.39800941779999999" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -192,6 +201,10 @@
                         <viewLayoutGuide key="safeArea" id="s8F-vN-QCQ"/>
                     </view>
                     <connections>
+                        <outlet property="btnCoeds" destination="QsS-jT-fKm" id="msU-fh-qJE"/>
+                        <outlet property="btnMens" destination="QE8-aY-GTm" id="KvU-0p-xj8"/>
+                        <outlet property="btnNext" destination="mzt-oX-IrG" id="ERk-7m-MRi"/>
+                        <outlet property="btnWomens" destination="yqa-ey-akY" id="b66-b9-zw1"/>
                         <segue destination="311-ao-em7" kind="show" identifier="skillVCSegue" id="8eO-bZ-egb"/>
                     </connections>
                 </viewController>
